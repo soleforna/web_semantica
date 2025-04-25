@@ -1,0 +1,90 @@
+
+.home {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #FDF6E3;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    height: 100vh;
+  }
+  
+  .header {
+    background-color: #FFDD57;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #FFB347;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  
+  .header-title {
+    margin: 0;
+    font-size: 2.5em;
+    color: #8B0000;
+    text-shadow: 2px 2px #fff;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+ .nav-list-item {
+    text-decoration: none;
+    color: #333;
+    background-color: #A2D2FF;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  
+  .nav-list-item:hover {
+    background-color: #FF90B3;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  .header-image {
+    width:10%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  
+ .main {
+    padding: 30px;
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .container {
+    background-color: #FFF1F1;
+    border: 3px dashed #FF90B3;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1 1 300px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+  }
+  
+  .container-title {
+    color: #FF69B4;
+  }
+  
+  .margin-top {
+    margin-top: 20px;
+  }
+  
+  .footer {
+    background-color: #FFDD57;
+    text-align: center;
+    padding: 15px;
+    border-top: 5px solid #FFB347;
+    font-weight: bold;
+  }
+  
